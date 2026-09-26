@@ -719,9 +719,8 @@ const MOVE_CANCEL_PX = 10;
     const notifTitle = `Reminder: ${task.name}`;
     const notifOptions = {
       body: `${appName} • ${task.dueDate ? `Due ${task.dueDate} • ` : ""}Importance ${task.importance}/5`,
-      icon: "./icons/notification.png",
+      icon: "./icons/icon-512.png",
       badge: "./icons/notification.png",
-      image: "./icons/notification.png",
       tag: `task-reminder-${task.id}`,
       renotify: true,
       requireInteraction: true,
